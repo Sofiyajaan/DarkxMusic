@@ -34,21 +34,21 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/1b33454d71f9fca99be76.jpg",
+        photo=f"https://te.legra.ph/file/6d2226149b1f195f3ff84.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝗧𝗵𝗲 𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/The_Professor_Network)
-┣★ ⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡ : [𝐒𝐀𝐑𝐅𝐈𝐑𝐎 𝐊𝐈 𝐃𝐔𝐍𝐈𝐘𝐀](https://t.me/MODERN_ELEMENTS)
-┣★ ⚡𝗢𝘄𝗻𝗲𝗿⚡   : [𝐀𝐉𝐄𝐄𝐓](https://t.me/PAPA_BOL_SAKTEHO)
+┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝐀𝐁𝐎𝐔𝐓 𝐎𝐖𝐍𝐄𝐑](https://t.me/@ABOUT_BRUTU)
+┣★ ⚡𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑⚡ : [𝐎𝐖𝐍𝐄𝐑 ](https://t.me/@B_4_BRUTU_RAJPUT)
+┣★ ⚡𝐎𝐖𝐍𝐄𝐑 𝐆𝐅⚡   : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/@Attitude_girl_niki)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "⚡ ❰ 𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝐲𝐨𝐮𝐫 𝗚𝗿𝗼𝘂𝗽 ❱ ⚡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "⚡ ❰ 𝗔𝗱𝗱 𝗠𝗲 𝗜𝗻 𝐘𝐨𝐮𝐫 𝗚𝗿𝗼𝘂𝗽 ❱ ⚡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ]
                 
            ]
