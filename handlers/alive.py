@@ -39,9 +39,9 @@ async def start_(client: Client, message: Message):
 💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝐀𝐁𝐎𝐔𝐓 𝐎𝐖𝐍𝐄𝐑](https://t.me/@ABOUT_BRUTU)
-┣★ ⚡𝐁𝐎𝐓𝐎𝐖𝐍𝐄𝐑⚡ : [𝐎𝐖𝐍𝐄𝐑 ](https://t.me/@B_4_BRUTU_RAJPUT)
-┣★ ⚡𝐎𝐖𝐍𝐄𝐑𝐆𝐅⚡   : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/@Attitude_girl_niki)
+┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝐀𝐁𝐎𝐔𝐓 𝐎𝐖𝐍𝐄𝐑](https://t.me/ABOUT_BRUTU)
+┣★ ⚡𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑⚡ : [𝐎𝐖𝐍𝐄𝐑 ](https://t.me/B_4_BRUTU_RAJPUT)
+┣★ ⚡𝐎𝐖𝐍𝐄𝐑 𝐆𝐅⚡   : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/Attitude_girl_niki)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
@@ -56,7 +56,7 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["/start", "/alive", "Ajeet"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["/start", "/alive", "Ajeet", "@papa_bol_sakteho"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://te.legra.ph/file/fc4eb9f675176cd2f75fa.jpg",
