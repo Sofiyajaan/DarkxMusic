@@ -1,6 +1,7 @@
-<h2 align="centre">⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 ✘ 𝐌𝐔𝐒𝐈𝐂 ⚡</h2>
+<h2 align="centre">⚡Azam sharif ![IMG_20220122_110850_507](https://user-images.githubusercontent.com/96971646/150649472-a3c0f48f-08e1-48f2-8344-069a0071d441.jpg)
+✘ 𝐌𝐔𝐒𝐈𝐂 ⚡</h2>
 
-### 𝐀𝐣𝐩𝐫𝐨𝐟𝐞𝐬𝐬𝐨𝐫 ✘ 𝐌𝐮𝐬𝐢𝐜 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### Azam shaif ✘ 𝐌𝐮𝐬𝐢𝐜 ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
 <p align="center"><a href="https://t.me/Modern_elements"><img src="https://te.legra.ph/file/29eef444ec34170c81037.jpg" width="300"></a></p>
 
