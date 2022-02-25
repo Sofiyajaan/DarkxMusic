@@ -39,9 +39,9 @@ async def start_(client: Client, message: Message):
 💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
 𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
 ┏━━━━━━━━━━━━━━━━━┓
-┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝐀𝐁𝐎𝐔𝐓 𝐎𝐖𝐍𝐄𝐑](https://t.me/ABOUT_BRUTU)
-┣★ ⚡𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑⚡ : [𝐎𝐖𝐍𝐄𝐑 ](https://t.me/B_4_BRUTU_RAJPUT)
-┣★ ⚡𝐎𝐖𝐍𝐄𝐑 𝐆𝐅⚡   : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/Attitude_girl_niki)
+┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [𝗠𝗼𝘃𝗶𝗲 channel](https://t.me/cinema_a2z)
+┣★ ⚡𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑⚡ : [𝐎𝐖𝐍𝐄𝐑 ](https://t.me/Azam_sharif_OWNER)
+┣★ ⚡𝐎𝐖𝐍𝐄𝐑 𝐆𝐅⚡   : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/sofiyaAslam1616)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
@@ -65,7 +65,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/modern_elements")
+                        "⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡", url=f"https://t.me/azam_sharif_gorup")
                 ]
             ]
         ),
@@ -81,7 +81,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/The_professor_Network")
+                        "⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡", url=f"https://t.me/cinema_a2z")
                 ]
             ]
         ),
