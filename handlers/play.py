@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ⏸ ᴘʟᴀʏɪɴɢ 𝐕𝐂 𝐉𝐎𝐈𝐍 𝐊𝐀𝐑𝐎 😤...**"
+                             caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ⏸ ᴘʟᴀʏɪɴɢ 𝐕𝐂 𝐉𝐎𝐈𝐍 𝐊𝐀𝐑𝐎 😤...**"
     )
 
 
@@ -393,7 +393,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption=f'**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ɴᴏᴡ ⏩ꜱᴋɪᴘᴘᴇᴅ ...**'
+                             caption=f'**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ɴᴏᴡ ⏩ꜱᴋɪᴘᴘᴇᴅ ...**'
    ) 
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ❌ ꜱᴛᴏᴘᴘᴇᴅ ...**"
+                             caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ❌ ꜱᴛᴏᴘᴘᴇᴅ ...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg",
-                              caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ʀᴇᴀʟᴏᴀᴅᴇᴅ ...**"
+                              caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ʀᴇᴀʟᴏᴀᴅᴇᴅ ...**"
     )
