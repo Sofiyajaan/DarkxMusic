@@ -41,7 +41,7 @@ async def start_(client: Client, message: Message):
 ┏━━━━━━━━━━━━━━━━━┓
 ┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : [Movie channel](https://t.me/cinema_a2z)
 ┣★ ⚡𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑⚡ : [𝐎𝐖𝐍𝐄𝐑 ](https://t.me/Azam_sharif_OWNER)
-┣★ ⚡𝐎𝐖𝐍𝐄𝐑 𝐆𝐅⚡   : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/sofiyaAslam1616)
+┣★ ⚡𝐎𝐖𝐍𝐄𝐑 𝐆𝐅🥺  : [𝐎𝐖𝐍𝐄𝐑 𝐆𝐅](https://t.me/sofiyaAslam1616)
 ┗━━━━━━━━━━━━━━━━━┛
 ━━━━━━━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
