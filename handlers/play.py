@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg",
-                              caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ʀᴇᴀʟᴏᴀᴅᴇᴅ ...**"
+                              caption="**⚡𝗔𝘇𝗮𝗺 lover 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ʀᴇᴀʟᴏᴀᴅᴇᴅ ...**"
     )
