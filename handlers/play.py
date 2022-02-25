@@ -186,7 +186,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝗝𝗢𝗜𝗡 𝗔𝗡𝗗 𝗖𝗛𝗔𝗧",
-                            url=f"https://t.me/modern_elements")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -225,7 +225,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝗝𝗢𝗜𝗡 𝗙𝗢𝗥 𝗔𝗡𝗬 𝗤𝗨𝗘𝗥𝗬",
-                            url=f"https://t.me/modern_elements")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -241,7 +241,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝗣𝗟𝗘𝗔𝗦𝗘 𝗝𝗢𝗜𝗡 😣",
-                            url=f"https://t.me/modern_elements")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -296,7 +296,7 @@ async def play(_, message: Message):
                 [
                         InlineKeyboardButton(
                             text="𝐉𝐎𝐈𝐍 𝐊𝐀𝐑𝐋𝐎 𝐏𝐀𝐈𝐒𝐄 𝐍𝐀𝐇𝐈 𝐋𝐀𝐆𝐄𝐍𝐆𝐄",
-                            url=f"https://t.me/modern_elements")
+                            url=f"https://t.me/azam_sharif_gorup")
 
                 ]
             ]
@@ -317,7 +317,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ᴀᴅᴅᴇᴅ ꜱᴏɴɢ\n ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ  » `{}` 🎶 ...**".format(position),
+            caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ᴀᴅᴅᴇᴅ ꜱᴏɴɢ\n ᴀᴛ ᴘᴏꜱɪᴛɪᴏɴ  » `{}` 🎶 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -333,7 +333,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ᴘʟᴀʏɪɴɢ ...**".format(),
+            caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ᴘʟᴀʏɪɴɢ ...**".format(),
         )
 
     os.remove("final.png")
@@ -348,7 +348,7 @@ async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption="**⚡PROFESSOR MUSIC⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ▶️ ᴘᴀᴜꜱᴇᴅ ...**"
+                             caption="**⚡𝗔𝘇𝗮𝗺 MUSIC⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ▶️ ᴘᴀᴜꜱᴇᴅ ...**"
     )
 
 
@@ -359,7 +359,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ⏸ ᴘʟᴀʏɪɴɢ 𝐕𝐂 𝐉𝐎𝐈𝐍 𝐊𝐀𝐑𝐎 😤...**"
+                             caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ⏸ ᴘʟᴀʏɪɴɢ 𝐕𝐂 𝐉𝐎𝐈𝐍 𝐊𝐀𝐑𝐎 😤...**"
     )
 
 
@@ -374,7 +374,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ɴᴏᴛʜɪɴɢ ᴘʟᴀʏɪɴɢ ...**")
+        await message.reply_text("**⚡𝗔𝗭𝗔𝗠 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ɴᴏᴛʜɪɴɢ ᴘʟᴀʏɪɴɢ ...**")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -393,7 +393,7 @@ async def skip(_, message: Message):
 
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption=f'**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ɴᴏᴡ ⏩ꜱᴋɪᴘᴘᴇᴅ ...**'
+                             caption=f'**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ \n ɴᴏᴡ ⏩ꜱᴋɪᴘᴘᴇᴅ ...**'
    ) 
 
 
@@ -409,7 +409,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg", 
-                             caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ❌ ꜱᴛᴏᴘᴘᴇᴅ ...**"
+                             caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ❌ ꜱᴛᴏᴘᴘᴇᴅ ...**"
     )
 
 
@@ -427,5 +427,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://te.legra.ph/file/1845048677b6dd67be3c8.jpg",
-                              caption="**⚡𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ʀᴇᴀʟᴏᴀᴅᴇᴅ ...**"
+                              caption="**⚡𝗔𝘇𝗮𝗺 𝐌𝐔𝐒𝐈𝐂⚡ ᴍᴜꜱɪᴄ\n ɴᴏᴡ ʀᴇᴀʟᴏᴀᴅᴇᴅ ...**"
     )
